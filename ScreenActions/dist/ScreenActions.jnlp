@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ScreenActions.jnlp">
+  <information>
+    <title>ScreenActions</title>
+    <vendor>nathangrant</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ScreenActions.jar" size="2187571" download="eager" />
+    <jar href="lib/CodeCheckerEventsBegin.jar" size="5231" download="eager" />
+    <jar href="lib/CodeCheckerEventsData.jar" size="11600" download="eager" />
+    <jar href="lib/CodeCheckerEventsMiddle.jar" size="1126" download="eager" />
+    <jar href="lib/javax.json-1.0.4.jar" size="85147" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ScreenActions" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="screenactions.IntroScreen"  name="ScreenActions" />
+  <update check="always"/>
+</jnlp>
